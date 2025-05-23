@@ -15,7 +15,7 @@ spec:
         app: techday-gitops-demo
     spec:
       containers:
-      - image: docker.io/mukiwa/gitops-demo:v1.0
+      - image: docker.io/mukiwa/gitops-demo:v2.0
         imagePullPolicy: Always
         name: techday-gitops-demo
         ports:
