@@ -15,7 +15,8 @@ spec:
         app: techday-gitops-demo
     spec:
       containers:
-      - image: docker.io/mukiwa/mitra-techday-website:v1.2
+      - image: docker.io/mukiwa/simple-website:latest
+        imagePullPolicy: Always
         name: techday-gitops-demo
         ports:
         - containerPort: 80
